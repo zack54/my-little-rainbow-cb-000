@@ -1,6 +1,35 @@
-div {
-  border: 20px solid #000; /* this is short hand for setting 
-                            the border's width, its type, and color */
+
+#red {
+  border-color: #f00;
+}
+
+#orange {
+  border-color: #ffa500;
+}
+
+#yellow {
+  border-color: #ff0;
+}
+
+#green {
+  border-color: #00bc3f;
+}
+
+#blue {
+  border-color: #06f;
+}
+
+#indigo {
+  border-color: #8a2be2;
+}
+
+#violet {
+  border-color: #d300c9;
+}
+
+#red, #orange, #yellow, #green, #blue, #indigo, #violet {
+  border-width: 20px;
+  border-style: solid;
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
   min-height: 25em; /* of the divs oblong*/
